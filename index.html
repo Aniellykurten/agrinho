@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Natureza Viva</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="titulo-central">
+      <h1>Natureza Viva</h1>
+      <p>Explorando a beleza e importância do nosso planeta</p>
+    </div>
+    <button id="modo-btn">🌙 Modo Escuro</button>
+  </header>
+
+  <section class="intro">
+    <h2>Conecte-se com a Natureza</h2>
+    <p>
+      A natureza é a essência da vida. Florestas, rios, montanhas e ecossistemas inteiros sustentam o planeta e proporcionam equilíbrio para nossa existência.
+    </p>
+  </section>
+
+  <section class="secao-texto">
+    <h2>A Importância da Preservação</h2>
+    <p>
+      Preservar a natureza é essencial para garantir um futuro saudável para as próximas gerações. A degradação ambiental leva à perda de biodiversidade, mudanças climáticas e escassez de recursos naturais.
+    </p>
+    <p>
+      Pequenas ações, como reciclagem, economia de água e energia, uso consciente de transportes e apoio a organizações ambientais, fazem grande diferença.
+    </p>
+  </section>
+
+  <section class="topicos">
+    <article>
+      <h2>🌳 Florestas</h2>
+      <p>
+        As florestas são responsáveis por abrigar mais de 80% da biodiversidade terrestre. Elas regulam o clima, purificam o ar e armazenam água nos solos.
+      </p>
+    </article>
+    <article>
+      <h2>🌊 Rios</h2>
+      <p>
+        Os rios transportam nutrientes, abastecem cidades e campos, e servem como habitat para diversas espécies. A proteção das nascentes é essencial.
+      </p>
+    </article>
+    <article>
+      <h2>⛰️ Montanhas</h2>
+      <p>
+        As montanhas regulam o ciclo da água, influenciam o clima e são fontes de minerais. Também são refúgio de vida silvestre e culturas tradicionais.
+      </p>
+    </article>
+    <article>
+      <h2>🦜 Biodiversidade</h2>
+      <p>
+        A biodiversidade é o conjunto de todas as formas de vida. Ela garante equilíbrio ecológico, alimentação, medicamentos e estabilidade nos ecossistemas.
+      </p>
+    </article>
+  </section>
+
+  <section class="galeria">
+    <article class="card">
+      <img src="imagens/floresta.jfif" alt="Floresta exuberante" />
+      <h3>Florestas</h3>
+      <p>Regiões ricas em biodiversidade que armazenam carbono e regulam o clima global.</p>
+    </article>
+
+    <article class="card">
+      <img src="imagens/rio.jfif" alt="Rio cristalino" />
+      <h3>Rios</h3>
+      <p>Fontes de água doce, conectam e sustentam ecossistemas terrestres e aquáticos.</p>
+    </article>
+
+    <article class="card">
+      <img src="imagens/montanha.jfif" alt="Montanha majestosa" />
+      <h3>Montanhas</h3>
+      <p>Guardam espécies únicas e desempenham papel crucial no ciclo da água.</p>
+    </article>
+
+    <article class="card">
+      <img src="imagens/biodiversidade.jfif" alt="Diversidade biológica" />
+      <h3>Biodiversidade</h3>
+      <p>Reflete a riqueza da vida e a interconexão entre todos os seres vivos da Terra.</p>
+    </article>
+  </section>
+
+  <section class="secao-texto">
+    <h2>Curiosidades sobre a Natureza</h2>
+    <ul>
+      <li>🌳 Uma única árvore pode absorver até 22 kg de CO₂ por ano.</li>
+      <li>🌍 A floresta amazônica representa mais da metade das florestas tropicais do mundo.</li>
+      <li>🦋 Existem mais de 10 milhões de espécies vivas conhecidas na Terra.</li>
+      <li>🐝 Abelhas são responsáveis por polinizar cerca de 70% dos alimentos que consumimos.</li>
+    </ul>
+  </section>
+
+  <section class="link-info">
+    <p>Saiba mais em <a href="https://www.wwf.org.br" target="_blank">wwf.org.br</a> e contribua com a proteção do nosso planeta.</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Natureza Viva | Desenvolvido com ❤️ e respeito pela vida</p>
+    <p>Contato: <a href="mailto:contato@naturezaviva.com">contato@naturezaviva.com</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<button onclick="mostrarConteudo('campo')">🌾 Vida no Campo</button>
+<button onclick="mostrarConteudo('cidade')">🏙️ Vida na Cidade</button>
+
+<div id="campo" class="conteudo-campo-cidade" style="display: none;">
+  <h2>Vida no Campo</h2>
+  <p>Tranquilidade, natureza abundante e ritmo desacelerado marcam a rotina no campo.</p>
+</div>
+
+<div id="cidade" class="conteudo-campo-cidade" style="display: none;">
+  <h2>Vida na Cidade</h2>
+  <p>Modernidade, infraestrutura e oportunidades são características da vida urbana.</p>
+</div>
